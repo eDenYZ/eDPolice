@@ -96,6 +96,7 @@ function VestiairePolice()
                      applySkinSpecific(infos)
                   end
                 })	
+	end
 
                 RageUI.Separator("↓ ~y~Tenues de service ~s~↓")
                 for _,infos in pairs(Config.PoliceCloak.clothes.grades) do
@@ -108,7 +109,7 @@ function VestiairePolice()
             
 
 
-                  end
+                  
               end
             end)
           Wait(0)
